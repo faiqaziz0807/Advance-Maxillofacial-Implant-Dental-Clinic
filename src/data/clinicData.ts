@@ -55,13 +55,15 @@ export const DOCTOR_INFO: DoctorInfo = {
     'Pakistan Association of Oral & Maxillofacial Surgeons (PAOMS)',
     'International Team for Implantology (ITI, Switzerland)',
   ],
-  image: '/src/assets/images/doctor_dr_ali_akhtar_1787914619553.jpg',
+  // Highly optimized, professional doctor portrait
+  image: 'https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&w=700&q=75',
 };
 
 export const HERO_SLIDES = [
   {
     id: 'slide-1',
-    image: '/src/assets/images/hero_dental_clinic_modern_1787914587461.jpg',
+    // Modern dental clinic interior
+    image: 'https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=1280&q=75',
     badge: 'State-of-the-Art Clinical Suite',
     title: 'Advanced Dental Care & Maxillofacial Excellence',
     subtitle:
@@ -70,7 +72,8 @@ export const HERO_SLIDES = [
   },
   {
     id: 'slide-2',
-    image: '/src/assets/images/hero_implant_surgery_1787914637122.jpg',
+    // Precision implant surgery / surgical theatre
+    image: 'https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&w=1280&q=75',
     badge: 'Precision Implantology',
     title: 'Lifetime Dental Implants & 3D Guided Surgery',
     subtitle:
@@ -79,7 +82,8 @@ export const HERO_SLIDES = [
   },
   {
     id: 'slide-3',
-    image: '/src/assets/images/hero_patient_smile_care_1787914600954.jpg',
+    // Radiant healthy happy smile
+    image: 'https://images.unsplash.com/photo-1606811841689-23dfddce3e95?auto=format&fit=crop&w=1280&q=75',
     badge: 'Smile Makeovers & Aesthetics',
     title: 'Radiant Aesthetics & Comprehensive Care',
     subtitle:
@@ -113,7 +117,7 @@ export const SERVICES_DATA: Service[] = [
     duration: '30–60 mins per implant',
     recoveryTime: '1–3 days back to normal routine',
     iconName: 'ShieldCheck',
-    image: '/src/assets/images/dental_implant_restoration_1787914758202.jpg',
+    image: 'https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&w=600&q=75',
   },
   {
     id: 'maxillofacial-surgery',
@@ -139,7 +143,7 @@ export const SERVICES_DATA: Service[] = [
     duration: 'Varies based on complexity (45 mins – 2.5 hours)',
     recoveryTime: '5–14 days depending on procedure',
     iconName: 'Activity',
-    image: '/src/assets/images/hero_implant_surgery_1787914637122.jpg',
+    image: 'https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=600&q=75',
   },
   {
     id: 'root-canal-cosmetic',
@@ -164,7 +168,7 @@ export const SERVICES_DATA: Service[] = [
     duration: '45–60 minutes (usually single session)',
     recoveryTime: 'Instant relief, slight sensitivity 24-48h',
     iconName: 'Sparkles',
-    image: '/src/assets/images/hero_dental_clinic_modern_1787914587461.jpg',
+    image: 'https://images.unsplash.com/photo-1609840114035-3c981b782dfe?auto=format&fit=crop&w=600&q=75',
   },
   {
     id: 'teeth-whitening-smile',
@@ -190,7 +194,7 @@ export const SERVICES_DATA: Service[] = [
     duration: '45–60 minutes',
     recoveryTime: 'Immediate results, no downtime',
     iconName: 'Smile',
-    image: '/src/assets/images/dental_smile_makeover_1787914653215.jpg',
+    image: 'https://images.unsplash.com/photo-1598256989800-fe5f95da9787?auto=format&fit=crop&w=600&q=75',
   },
   {
     id: 'routine-checkups-ortho',
@@ -215,7 +219,7 @@ export const SERVICES_DATA: Service[] = [
     duration: '30–45 minutes',
     recoveryTime: 'Zero downtime',
     iconName: 'CheckCircle2',
-    image: '/src/assets/images/dental_teeth_alignment_1787914742728.jpg',
+    image: 'https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&w=600&q=75',
   },
   {
     id: 'wisdom-tooth-surgery',
@@ -240,7 +244,7 @@ export const SERVICES_DATA: Service[] = [
     duration: '20–40 minutes',
     recoveryTime: '2–4 days',
     iconName: 'Scissors',
-    image: '/src/assets/images/hero_dental_clinic_modern_1787914587461.jpg',
+    image: 'https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=600&q=75',
   },
 ];
 
@@ -251,8 +255,8 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
     treatmentType: 'Dental Implants & Zirconia Bridge',
     description:
       'Patient presented with terminal dentition and failing restorations. Full extraction followed by computer-guided 6-implant placement with immediate fixed screw-retained zirconia prosthesis.',
-    beforeImage: '/src/assets/images/dental_implant_restoration_1787914758202.jpg',
-    afterImage: '/src/assets/images/dental_smile_makeover_1787914653215.jpg',
+    beforeImage: 'https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&w=800&q=75',
+    afterImage: 'https://images.unsplash.com/photo-1606811841689-23dfddce3e95?auto=format&fit=crop&w=800&q=75',
     duration: 'Completed in 2 Phases (Immediate load + final glaze in 12 weeks)',
     patientAge: '52 Years Old',
     doctorNotes:
@@ -264,8 +268,8 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
     treatmentType: 'Porcelain Laminate Veneers & Gingival Contouring',
     description:
       'Correction of severe tetracycline discoloration, incisal edge wear, and midline spacing across upper anterior teeth.',
-    beforeImage: '/src/assets/images/dental_teeth_alignment_1787914742728.jpg',
-    afterImage: '/src/assets/images/dental_smile_makeover_1787914653215.jpg',
+    beforeImage: 'https://images.unsplash.com/photo-1609840114035-3c981b782dfe?auto=format&fit=crop&w=800&q=75',
+    afterImage: 'https://images.unsplash.com/photo-1598256989800-fe5f95da9787?auto=format&fit=crop&w=800&q=75',
     duration: '2 Weeks of Restorative Care (2 clinical visits)',
     patientAge: '31 Years Old',
     doctorNotes:
@@ -277,8 +281,8 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
     treatmentType: 'Immediate Front Tooth Implant Placement',
     description:
       'Traumatic fracture of upper central incisor. Atraumatic extraction, immediate implant placement with simultaneous bone graft, and emergence profile conditioning.',
-    beforeImage: '/src/assets/images/hero_implant_surgery_1787914637122.jpg',
-    afterImage: '/src/assets/images/dental_smile_makeover_1787914653215.jpg',
+    beforeImage: 'https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=800&q=75',
+    afterImage: 'https://images.unsplash.com/photo-1606811841689-23dfddce3e95?auto=format&fit=crop&w=800&q=75',
     duration: 'Same-day provisional, final ceramic crown at 8 weeks',
     patientAge: '28 Years Old',
     doctorNotes:
@@ -350,7 +354,7 @@ export const BLOG_POSTS: BlogPost[] = [
     readTime: '4 min read',
     date: 'August 2026',
     author: 'Dr. Ali Akhtar Khan',
-    image: '/src/assets/images/dental_implant_restoration_1787914758202.jpg',
+    image: 'https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&w=600&q=75',
     tags: ['Dental Implants', 'Bone Health', 'Oral Surgery'],
   },
   {
@@ -368,7 +372,7 @@ export const BLOG_POSTS: BlogPost[] = [
     readTime: '5 min read',
     date: 'July 2026',
     author: 'Dr. Ali Akhtar Khan',
-    image: '/src/assets/images/hero_implant_surgery_1787914637122.jpg',
+    image: 'https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=600&q=75',
     tags: ['TMJ', 'Jaw Surgery', 'Oral Health'],
   },
   {
@@ -386,7 +390,7 @@ export const BLOG_POSTS: BlogPost[] = [
     readTime: '3 min read',
     date: 'June 2026',
     author: 'Advance Dental Team',
-    image: '/src/assets/images/dental_smile_makeover_1787914653215.jpg',
+    image: 'https://images.unsplash.com/photo-1598256989800-fe5f95da9787?auto=format&fit=crop&w=600&q=75',
     tags: ['Teeth Whitening', 'Smile Tips', 'Enamel Care'],
   },
 ];
