@@ -1,0 +1,6 @@
+{
+  "name": "Advance Maxillofacial Implant & Dental Clinic",
+  "description": "Premier dental and maxillofacial clinic in Rawalpindi led by Dr. Ali Akhtar Khan, specializing in precision dental implants, jaw surgery, and smile aesthetics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
